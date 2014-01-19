@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<data-set xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<record>
+		<Aufgabenstellung>Suche den Standort der ehemaligen Synagoge in Heilbronn auf und markiere ihn auf dem Stadtplan. Fotografiere den Gegenstand, der diesen Ort heute markiert.</Aufgabenstellung>
+		<Score>100</Score>
+		<Hinweis1>Heute befindet sich am Standort der Synagoge ein Denkmal.</Hinweis1>
+		<Subtract1>10</Subtract1>
+		<Hinweis2>Dieses Denkmal befindet sich etwa auf halbem Weg zwischen dem THG und dem Wollhausplatz.</Hinweis2>
+		<Subtract2>20</Subtract2>
+		<Hinweis3>Es befindet sich an der Allee.</Hinweis3>
+		<Subtract3>60</Subtract3>
+		<Bildname>aufgabe1.png</Bildname>
+	</record>
+	<record>
+		<Aufgabenstellung>Begebe dich z.B. in die Straße hinter dem alten Friedhof und finde den Ort, an dem an Herrn/ Frau/ Familie XY erinnert wird. Markiere ihn auf dem Stadtplan. Notiere den/ die vollen Namen sowie die weiteren Informationen von Herrn/ Frau/ Familie Xy, die du dort findest.</Aufgabenstellung>
+		<Score>90</Score>
+		<Hinweis1>Der Ort befindet sich auf dem Gehweg.</Hinweis1>
+		<Subtract1>10</Subtract1>
+		<Hinweis2>Es handelt sich um einen Stein.</Hinweis2>
+		<Subtract2>20</Subtract2>
+		<Hinweis3>Dieser ist messingfarben.</Hinweis3>
+		<Subtract3>60</Subtract3>
+		<Bildname>aufgabe2.png</Bildname>
+	</record>
+	<record>
+		<Aufgabenstellung>Finde den [besonderes/ distinktives Merkmal] Turm der Heilbronner Stadtmauer und markiere ihn auf dem Stadtplan. (Notiere den Namen des Turms/ fotografiere das Wappen auf der Flagge des Turms.)</Aufgabenstellung>
+		<Score>120</Score>
+		<Hinweis1>Der Turm befindet sich am Neckarufer.</Hinweis1>
+		<Subtract1>12</Subtract1>
+		<Hinweis2>Er befindet sich nicht beim Soleo.</Hinweis2>
+		<Subtract2>24</Subtract2>
+		<Hinweis3>Es handelt sich um den Götzenturm.</Hinweis3>
+		<Subtract3>22</Subtract3>
+		<Bildname>aufgabe3.png</Bildname>
+	</record>
+	<record>
+		<Aufgabenstellung>Suche das ehemalige Ordens-/Klostergebäude auf, das sich in der Heilbronner Innenstadt befindet, und markiere es auf dem Stadtplan. Fotografiere den Brunnen, der sich im Innenhof befindet.</Aufgabenstellung>
+		<Score>50</Score>
+		<Hinweis1>Heute befinden sich in seinen Räumen u.a. die städtischen Museen.</Hinweis1>
+		<Subtract1>15</Subtract1>
+		<Hinweis2>Das Stadtarchiv ist um die Ecke./ Das Gebäude wird vom EC-Center fast verdeckt.</Hinweis2>
+		<Subtract2>15</Subtract2>
+		<Hinweis3>Es handelt sich um das Deutschordenskloster.</Hinweis3>
+		<Subtract3>15</Subtract3>
+		<Bildname>aufgabe4.png</Bildname>
+	</record>
+	<record>
+		<Aufgabenstellung>Begebe dich zum Anfang/ Ende/ besser Himmelsrichtung der Straße, die in der NS-Zeit zu Ehren Adolf Hitlers umbenannt wurde. Fotografiere das Gebäude, das sich [Lokalisierung entsprechend oben, z.B. Theater] befindet, notiere, welche Funktion es heute hat und markiere es auf dem Stadtplan.</Aufgabenstellung>
+		<Score>80</Score>
+		<Hinweis1>Die Straße verläuft auf der ehemaligen Stadtmauer Heilbronns.</Hinweis1>
+		<Subtract1>5</Subtract1>
+		<Hinweis2>Es handelt sich um die Allee./ Die Straße hieß von 1933 bis1945 Adolf-Hitler-Allee.</Hinweis2>
+		<Subtract2>10</Subtract2>
+		<Hinweis3>Bei dem Gebäude handelt es sich um das Theater/ die Harmonie.</Hinweis3>
+		<Subtract3>15</Subtract3>
+		<Bildname>aufgabe5.png</Bildname>
+	</record>
+</data-set>

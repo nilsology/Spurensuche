@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:installLocation="auto"
+	package="org.mapsforge.applications.android.advancedmapviewer" android:versionCode="8" android:versionName="THG_7">
+
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.WAKE_LOCK" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+	<uses-sdk android:minSdkVersion="8" android:targetSdkVersion="18" />
+
+	<application android:allowBackup="true" android:icon="@drawable/ic_icon" android:label="@string/application_name">
+		<activity android:name="de.schule.bw.hn.thg.spurensuche.Spurensuche" android:theme="@style/Mapsforge" android:screenOrientation="nosensor">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		<activity android:name="de.schule.bw.hn.thg.spurensuche.preferences.EditPreferences" />
+		<activity android:name="de.schule.bw.hn.thg.spurensuche.filepicker.FilePicker" />
+		<activity android:name="de.schule.bw.hn.thg.spurensuche.InfoView" android:theme="@android:style/Theme.NoTitleBar" />
+	</application>
+</manifest>

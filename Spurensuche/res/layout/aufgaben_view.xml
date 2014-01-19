@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainView"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TextView
+        android:id="@+id/aufgabe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/white1"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/taskView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/aufgabe"
+        android:layout_marginTop="36dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/scoreView"
+        android:textColor="#000000" />
+
+    <TextView
+        android:id="@+id/hinweis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/score"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="@string/hintView"
+        android:textColor="#000000"
+        android:visibility="visible" />
+
+    <Button
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/next"
+        android:layout_alignBottom="@+id/next"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="396dp"
+        android:text="@string/hintButton"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/previous"
+        android:layout_alignBottom="@+id/previous"
+        android:layout_marginRight="67dp"
+        android:layout_toLeftOf="@+id/hint"
+        android:text="@string/nextButton"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/previous"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/finished"
+        android:layout_marginRight="56dp"
+        android:layout_toLeftOf="@+id/next"
+        android:text="@string/prevButton"
+        android:textColor="#000000" />
+
+    <CheckBox
+        android:id="@+id/finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="75dp"
+        android:layout_toLeftOf="@+id/previous"
+        android:checked="false"
+        android:text="@string/finBox"
+        android:textColor="#000000"
+        android:visibility="visible" />
+    
+</RelativeLayout>
